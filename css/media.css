@@ -1,0 +1,118 @@
+@media screen and (max-width: 62.375em) {
+  html {
+    font-size: 9px;
+  }
+  .headline {
+    text-align: center;
+  }
+  .page__main {
+    height: auto;
+  }
+  .main__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: static;
+    padding-bottom: 5rem;
+    padding-left: 0;
+  }
+  .main__article {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .main__text {
+    padding-top: 1rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .header__mobile {
+    padding-right: 2rem;
+    display: block;
+  }
+  .header__nav {
+    position: relative;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .nav__item {
+    display: block;
+    text-align: center;
+    line-height: 3;
+    font-size: 2.5rem;
+    background: red;
+    padding: 0 5rem;
+  }
+  .nav__item:last-child {
+    margin-right: 0;
+  }
+  .story {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: .5rem 0;
+  }
+  .pricing__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .pricing__item {
+    margin-bottom: 2rem;
+  }
+  .comments,
+  .gallery {
+    width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .comment__pict {
+    position: relative;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+  .gallery__more {
+    margin-top: 2.5rem;
+  }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 2rem;
+  }
+}
+@media screen and (min-width: 35.62em) and (max-width: 62.5em) {
+  .form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form__input {
+    height: 8rem;
+  }
+}
+@media screen and (min-width: 63em) {
+  .header__mobile {
+    display: none;
+  }
+  .nav {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 110em) {
+  html {
+    font-size: 20px;
+  }
+  .page__wrapper {
+    max-width: 90vw;
+  }
+}

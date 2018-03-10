@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'QuiteChocolatey';
+	src: url('QuiteChocolatey/QuiteChocolatey.eot');
+	src: local('☺'), url('QuiteChocolatey/QuiteChocolatey.woff') format('woff'), 
+	url('QuiteChocolatey/QuiteChocolatey.ttf') format('truetype'), 
+	url('QuiteChocolatey/QuiteChocolatey.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
