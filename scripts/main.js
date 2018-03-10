@@ -1,21 +1,15 @@
 
 window.onload = function() {
-	var menu = document.querySelector(".nav"),
-	mobileBar = document.querySelector('.fa-bars'),
-	story = document.querySelector('.story'),
-	pricingItem = document.querySelectorAll('.pricing__item'),
+	var menu 	  = document.querySelector(".nav"),
+	mobileBar 	  = document.querySelector('.header__icon'),
+	story         = document.querySelector('.story'),
+	pricingItem   = document.querySelectorAll('.pricing__item'),
 	blockComments = document.querySelector('.comments'),
-	blockGallery = document.querySelector('.gallery'),
-	pageMain = document.querySelector('.page__main');
+	blockGallery  = document.querySelector('.gallery'),
+	pageMain      = document.querySelector('.page__main');
 	// Адаптивное меню
-	mobileBar.addEventListener("click", function() {
-		if(menu.style.display === "none"){
-			menu.style.display = "block";
-		}
-		else {
-			menu.style.display = "none";
-
-		}
+	mobileBar.addEventListener('click', function() {
+		menu.classList.toggle('nav_opened');
 	});
 	// Для появления блоков при скролле(анимация)
 	window.onscroll = function() {

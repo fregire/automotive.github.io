@@ -29,17 +29,24 @@
   .header__mobile {
     padding-right: 2rem;
     display: block;
+    font-size: 5rem;
   }
+
   .header__nav {
     position: relative;
   }
   .nav {
-    display: none;
+    height: 0;
+    overflow: hidden;
     position: absolute;
     top: 80%;
     right: 0;
     width: 100%;
     padding: 0;
+    transition: height 400ms;
+  }
+  .nav_opened {
+    height: 100vh;
   }
   .nav__item {
     display: block;
