@@ -243,8 +243,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: 25rem;
-      flex-basis: 25rem;
+  -ms-flex-preferred-size: 20rem;
+      flex-basis: 20rem;
   width: 25%;
 }
 .services__icon {
@@ -286,7 +286,7 @@ img {
 .story__text {
   padding-left: 2rem;
   -ms-flex-preferred-size: 65rem;
-      flex-basis: 65rem;
+      flex-basis: 55rem;
 }
 /* Block - Pricing */
 .page__pricing {
@@ -316,8 +316,8 @@ img {
 }
 .pricing__item {
   background: #fff;
-  -ms-flex-preferred-size: 32rem;
-      flex-basis: 32rem;
+  -ms-flex-preferred-size: 25rem;
+      flex-basis: 25rem;
   width: 30%;
   border-radius: 1rem;
   position: relative;
@@ -385,8 +385,8 @@ img {
 }
 .comments {
   width: 50%;
-  -ms-flex-preferred-size: 45rem;
-      flex-basis: 45rem;
+  -ms-flex-preferred-size: 40rem;
+      flex-basis: 40rem;
   position: relative;
   left: -120%;
   -webkit-transition: left 1s;
@@ -512,7 +512,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 7.7rem 0;
+  padding: 3rem 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
