@@ -285,8 +285,6 @@ img {
 }
 .story__text {
   padding-left: 2rem;
-  -ms-flex-preferred-size: 65rem;
-      flex-basis: 55rem;
 }
 /* Block - Pricing */
 .page__pricing {
@@ -316,8 +314,7 @@ img {
 }
 .pricing__item {
   background: #fff;
-  -ms-flex-preferred-size: 25rem;
-      flex-basis: 25rem;
+  flex-basis: 300px;
   width: 30%;
   border-radius: 1rem;
   position: relative;
@@ -329,11 +326,11 @@ img {
 }
 .pricing__popular {
   background: #ff0000;
-  width: 60%;
+  width: 180px;
   height: 23%;
   position: absolute;
-  top: -4%;
-  left: -20%;
+  top: -20px;
+  left: -70px;
   line-height: 6;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
