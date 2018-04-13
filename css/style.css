@@ -314,7 +314,8 @@ img {
 }
 .pricing__item {
   background: #fff;
-  flex-basis: 300px;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
   width: 30%;
   border-radius: 1rem;
   position: relative;
